@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+
+}
+
+.container{
+    margin: 20px;
+    display: flex;
+
+}
+.main{
+    margin: 10px;
+    display: flex;
+
+
+
+}
+.dropdown{
+    margin: 10px;
+    display: flex;
+}
+.main input{
+    margin: 5px;
+
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Session Counter</title>
+    </head>
+    <body>
+        <div class="sec"><br>
+            <h1> This is a simple counter for user session</h1>
+                {{session['counter']}}
+
+            <form action="reset" method="post">
+                <button type="submit">Rest the Counter</button>
+            </form>
+            <h1>Press the button to generate session</h1>
+            <form action="generate" method="post">
+                <button type="submit">Generate Session</button>
+            </form>
+        </div>
+    </body>
+</html>

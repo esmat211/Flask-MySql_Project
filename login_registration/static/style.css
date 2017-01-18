@@ -1,0 +1,19 @@
+
+.main{
+
+    background-color: lightgreen;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+}
+.main form{
+
+    padding: 10px;
+
+}
+.main input{
+    display: inline-block;
+    margin: 5px;
+    display: inline-table;
+    display: inline-flex;
+}
